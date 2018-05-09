@@ -10,10 +10,18 @@
     <description>Asp.Net Core utilities for SAEON</description>
     <copyright>Copyright © 2017-2018 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.4" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.13" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.3" exclude="Build,Analyzers" />
+      </group>
       <group targetFramework=".NETCoreApp2.0">
         <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.3" exclude="Build,Analyzers" />
         <dependency id="SAEON.Logs" version="1.0.13" exclude="Build,Analyzers" />
       </group>
     </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
   </metadata>
 </package>
