@@ -14,9 +14,13 @@
         <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" exclude="Build,Analyzers" />
         <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
       </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.Extensions.Configuration" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
+      </group>
       <group targetFramework=".NETStandard2.0">
         <dependency id="SAEON.Logs" version="1.0.31" exclude="Build,Analyzers" />
-        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" exclude="Build,Analyzers" />
         <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
       </group>
     </dependencies>

@@ -13,7 +13,7 @@
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.6" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.32" exclude="Build,Analyzers" />
         <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
