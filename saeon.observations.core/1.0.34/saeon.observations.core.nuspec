@@ -17,8 +17,8 @@
         <dependency id="Microsoft.AspNet.WebPages" version="3.2.6" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Web.Infrastructure" version="1.0.0" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Core" version="1.0.7" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.29" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Core" version="1.0.10" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.33" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

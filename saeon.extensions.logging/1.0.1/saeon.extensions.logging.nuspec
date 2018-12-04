@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SAEON.Extensions.Logging</id>
+    <version>1.0.1</version>
+    <title>SAEON.Extensions.Logging</title>
+    <authors>Tim Parker-Nance</authors>
+    <owners>Tim Parker-Nance</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.Extensions.Logging extensions for SAEON in .Net Standard 2.0</description>
+    <copyright>Copyright © 2018 South African Environmental Observation Network (SAEON)</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
