@@ -10,13 +10,13 @@
     <copyright>Copyright © 2017-2018 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
-        <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
+        <dependency id="WindowsAzure.Storage" version="9.3.3" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETCoreApp2.0">
-        <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
+        <dependency id="WindowsAzure.Storage" version="9.3.3" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="WindowsAzure.Storage" version="9.3.2" exclude="Build,Analyzers" />
+        <dependency id="WindowsAzure.Storage" version="9.3.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

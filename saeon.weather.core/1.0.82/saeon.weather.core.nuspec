@@ -9,17 +9,11 @@
     <description>SAEON Weather - Core library</description>
     <copyright>© 2018 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
-      <group targetFramework=".NETFramework4.6.1">
-        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Azure.Storage" version="1.0.42" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Core" version="1.0.10" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Extensions.Logging" version="1.0.8" exclude="Build,Analyzers" />
-      </group>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Azure.Storage" version="1.0.42" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Azure.Storage" version="1.0.43" exclude="Build,Analyzers" />
         <dependency id="SAEON.Core" version="1.0.10" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Extensions.Logging" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Extensions.Logging" version="1.0.9" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
