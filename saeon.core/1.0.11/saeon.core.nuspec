@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>SAEON.Core</id>
     <version>1.0.11</version>
@@ -9,8 +9,15 @@
     <description>Core utilities for SAEON in .Net</description>
     <copyright>Copyright © 2017-2019 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
-      <group targetFramework=".NETFramework4.6.1" />
-      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="GitVersion" version="3.6.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="GitVersion" version="3.6.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="GitVersion" version="3.6.5" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
 </package>

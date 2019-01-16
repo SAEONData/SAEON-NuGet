@@ -17,14 +17,21 @@
         <dependency id="Serilog.Sinks.RollingFile" version="3.3.0" exclude="Build,Analyzers" />
         <dependency id="Serilog.Sinks.Seq" version="4.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework=".NETCoreApp2.0">
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Settings.AppSettings" version="2.2.2" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.RollingFile" version="3.3.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Seq" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
         <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.AspNetCore" version="2.1.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.Settings.Configuration" version="3.0.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.Sinks.Console" version="3.1.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.Sinks.Seq" version="4.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework=".NETCoreApp2.1">
+      <group targetFramework=".NETCoreApp2.2">
         <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.AspNetCore" version="2.1.1" exclude="Build,Analyzers" />
         <dependency id="Serilog.Settings.Configuration" version="3.0.1" exclude="Build,Analyzers" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>SAEON.Core.WPF</id>
     <version>1.0.5</version>
@@ -9,11 +9,16 @@
     <description>Core WPF utilities for SAEON .Net</description>
     <copyright>Copyright © 2017-2019 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
-      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="GitVersion" version="3.6.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="GitVersion" version="3.6.5" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.1" />
-      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.1, .NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.1, .NETFramework4.7.2" />
     </frameworkAssemblies>
   </metadata>
 </package>
