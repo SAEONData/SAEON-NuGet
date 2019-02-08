@@ -11,11 +11,11 @@
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.36" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.37" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETFramework4.7.2">
         <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.36" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.37" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

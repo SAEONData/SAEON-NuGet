@@ -14,14 +14,14 @@
         <dependency id="AutoQueryable.AspNet.Filter" version="1.7.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.36" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.37" exclude="Build,Analyzers" />
         <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETFramework4.7.2">
         <dependency id="AutoQueryable.AspNet.Filter" version="1.7.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.36" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.37" exclude="Build,Analyzers" />
         <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
