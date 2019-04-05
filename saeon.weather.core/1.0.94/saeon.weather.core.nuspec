@@ -11,7 +11,7 @@
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Azure.Storage" version="1.0.50" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Azure.Storage" version="1.0.52" exclude="Build,Analyzers" />
         <dependency id="SAEON.Core" version="1.0.12" exclude="Build,Analyzers" />
         <dependency id="SAEON.Extensions.Logging" version="1.0.16" exclude="Build,Analyzers" />
       </group>
