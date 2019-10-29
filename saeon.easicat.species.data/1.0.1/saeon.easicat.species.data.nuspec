@@ -9,9 +9,9 @@
     <description>SAEON EasiCAT Species Data</description>
     <copyright>Copyright © 2017-2019 South African Environmental Observation Network (SAEON)</copyright>
     <dependencies>
-      <group targetFramework=".NETFramework4.6.1">
+      <group targetFramework=".NETFramework4.7.2">
         <dependency id="EntityFramework.SqlServerCompact" version="6.2.0" exclude="Build,Analyzers" />
-        <dependency id="SAEON.Logs" version="1.0.38" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs" version="1.0.44" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

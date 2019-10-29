@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SAEON.ImageClassifier.CognitiveServices</id>
+    <version>1.0.14</version>
+    <authors>Tim Parker-Nance</authors>
+    <owners>Tim Parker-Nance</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SAEON Image Classifier - CognitiveServices</description>
+    <copyright>© 2019 South African Environmental Observation Network (SAEON)</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Catel.Core" version="5.11.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Catel.Core" version="5.11.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.Serialization.Formatters" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization.Primitives" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization.Xml" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
