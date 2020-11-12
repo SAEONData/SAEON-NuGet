@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SAEON.OpenXML</id>
+    <version>1.0.89</version>
+    <authors>Tim Parker-Nance</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenXML utilities for SAEON .Net</description>
+    <copyright>Copyright © South African Environmental Observation Network (SAEON)</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="DocumentFormat.OpenXml" version="2.11.3" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs.NetFramework" version="1.0.29" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DocumentFormat.OpenXml" version="2.11.3" exclude="Build,Analyzers" />
+        <dependency id="SAEON.Logs.NetCore" version="1.0.48" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.IO.FileSystem.Primitives" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
